@@ -938,7 +938,7 @@ def ReadCurrents(address):
 
 
 def SpeedAccelM1M2_2(address, accel1, speed1, accel2, speed2):
-    return _write4S44S4(address, Cmd.MIXEDSPEED2ACCEL, accel, speed1, accel2, speed2)
+    return _write4S44S4(address, Cmd.MIXEDSPEED2ACCEL, accel1, speed1, accel2, speed2)
 
 
 def SpeedAccelDistanceM1M2_2(address, accel1, speed1, distance1, accel2, speed2, distance2, buffer):
