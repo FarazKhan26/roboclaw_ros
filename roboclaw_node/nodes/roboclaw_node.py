@@ -346,4 +346,8 @@ if __name__ == "__main__":
     finally:
         node.destroy_node()
         rclpy.shutdown()
+<<<<<<< HEAD
         print("Quiting")
+=======
+        print("Quiting")
+>>>>>>> 6f70bbc61df1758076f16eedb8887416f87aa779
